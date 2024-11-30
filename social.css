@@ -57,10 +57,17 @@ body{
     background-color: green;
     font-weight: bolder;
     width: 15rem;
-    text-shadow: 0 0 8px var(--Green);
-    transition: background-color 0.5s, width 2s;
+    text-shadow: blue;
+    transition: background-color 2s, width 2s; 
     align-items: center;
 }
 .img:hover{
-    cursor: pointer;
+    cursor: cell;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: aqua;
 }
